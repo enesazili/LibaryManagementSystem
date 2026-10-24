@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_student"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Öğrenci Ekle" />
+        <item
+            android:id="@+id/nav_student_list"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Öğrenci Listesi" />
+        <item
+            android:id="@+id/nav_add_book"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Kitap Ekle" />
+        <item
+            android:id="@+id/nav_book_list"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Kitap Listesi" />
+        <item
+            android:id="@+id/nav_add_borrow"
+            android:icon="@android:drawable/ic_menu_upload"
+            android:title="Kitap Ödünç Ver" />
+    </group>
+</menu>
